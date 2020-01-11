@@ -155,7 +155,6 @@ footer p {
 
 .section-2 .grid {
   grid-template-columns: repeat(3, auto);
-  grid-template-areas: "p p p" "p p p";
   justify-items: center;
   row-gap: 1em;
 }
@@ -189,15 +188,17 @@ footer p {
 
 .section-3 .grid {
   grid-template-columns: auto 40% auto 40%;
+  justify-items: center;
   row-gap: 1em;
 }
 
 .section-3 p {
   padding-left: .75em;
-  font-size: .75rem; }
+  font-size: .75rem;
+}
 
 .section-3 .bar-container {
-  width: 100%;
+  width: 90%;
   background-color: #f0f0f0;
   height: 1em;
   border-radius: .75em;
@@ -213,6 +214,8 @@ footer p {
 }
 
 /* .section-4 */
+
+.section-4 .flex { justify-content: center; }
 
 .section-4 form {
   width: 60%;
