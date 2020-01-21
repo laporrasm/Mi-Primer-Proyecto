@@ -374,6 +374,8 @@ footer p {
 @media (max-width: 768px) {
   header nav { width: 50%; }
 
+  .section-0 { background-attachment: initial; }
+
   .section-0 div:first-child { top: 30%; }
 
   .section-1 .profile { width: 90%; }
@@ -428,17 +430,9 @@ footer p {
     display: none;
   }
 
-  /* .section-0 { padding: 0;
-  }
-
-  .section-0 div:first-child {
-    position: static;
-    z-index: 1;
-  } */
+  .section-0 { background-attachment: initial; }
 
   .section-0 h1 { margin: 0 auto; }
-
-  /* .section-0 p { display: none; } */
 
   .section-1 .profile {
     display: block;
